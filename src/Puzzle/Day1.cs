@@ -1,4 +1,4 @@
-namespace adventofcode;
+namespace adventofcode.Puzzle;
 
 public static class Day1{
     public static void Execute(){
@@ -9,7 +9,7 @@ public static class Day1{
 
         // read from csv input and store in two lists
 
-        string csvPath = "input/day1input.csv";
+        string csvPath = "Puzzle/input/day1input.csv";
         using(StreamReader reader = new StreamReader(csvPath))
         {
             string line;

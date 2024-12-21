@@ -1,4 +1,6 @@
-﻿namespace adventofcode;
+﻿using adventofcode.Puzzle;
+
+namespace adventofcode;
 
 class Program
 {
