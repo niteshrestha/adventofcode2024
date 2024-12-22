@@ -13,6 +13,9 @@ class Program
                 day1.GetTotalDistance();
                 day1.GetSimilarityScore();
             }
+            if(args[0] == "2"){
+                Day2.GetSafeReports();
+            }
         }
     }
 }
